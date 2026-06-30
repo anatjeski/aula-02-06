@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> cadastro da ana   </h1>
+    <form >
+        <label for="nome">nome</label>
+        <input type="text" name="nome" id="nome" placeholder="digite seu nome">
+        <label for="email">email</label>
+        <input type="text" name="email" id="email" placeholder="digite seu email">
+        <label for="passworld">senha</label>
+        <input type="password" name="password" id="password"placeholder="digite sua senha">
+        <label for="date">data de nascimento</label>
+        <input type="date" name="date" id="date"placeholder="data de nascimento">
+        <label for="cidade">cidade</label>
+        <select name="cidade" id="cidade">
+            <option>londrina</option>
+            <option>maringá</option>
+            <option>cambé</option>
+            <option>arapongas</option>
+            <option>rolândia</option>
+
+        </select>
+        <label for="historico">já fez o curso?</label>
+        <input type="radio" name="historico" id="historico">sim
+        <input type="radio" name="historico" id="historico">nao
+        <label>
+            <input type="checkbox" id="opcoes">aceito os termos
+        </label>
+        <textarea rows="4"></textarea>
+        <button type="submit">cadastrar
+             </button>
+    </form>
+</body>
+</html>
