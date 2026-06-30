@@ -1,0 +1,30 @@
+</head>
+<body>
+    <h1> cadastro para prova   </h1>
+    <form >
+        <label for="nome">nome</label>
+        <input type="text" name="nome" id="nome" placeholder="digite seu nome">
+        <label for="email">email</label>
+        <input type="text" name="email" id="email" placeholder="digite seu email">
+        <label for="passworld">senha</label>
+        <input type="password" name="password" id="password"placeholder="digite sua senha">
+        <label for="date">data de nascimento</label>
+        <input type="date" name="date" id="date"placeholder="data de nascimento">
+        <label for="turma">turma</label>
+        <select name="turma" id="turma">
+            <option>2ADM</option>
+            <option>1ADM</option>
+            <option>1C</option>
+            <option>1B</option>
+            <option>9A</option>
+
+        </select>
+        <label for="historico">qual seu genero?</label>
+        <input type="radio" name="genero" id="genero">feminino
+        <input type="radio" name="genero" id="genero">masculino
+        <label>
+            <input type="checkbox" id="opcoes">receber nota por email
+        </label>
+        <textarea rows="4"></textarea>
+        <button type="submit">enviar
+             </button>
